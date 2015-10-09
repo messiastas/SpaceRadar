@@ -1,0 +1,16 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\src\FightController.cs">
+    <Files>
+      <File FileName="Assets\src\FightController.cs" Line="299" Column="57" />
+      <File FileName="Assets\src\PointBase.cs" Line="127" Column="39" />
+      <File FileName="Assets\src\SharedVars.cs" Line="1" Column="1" />
+      <File FileName="Assets\src\GUIController.cs" Line="134" Column="66" />
+      <File FileName="..\..\TheTribeGame\Assets\Scripts\GameController.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
