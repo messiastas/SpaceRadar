@@ -121,19 +121,16 @@ public class FightController : MonoBehaviour {
 	{
 		mans = new PointBase[enemyNumber+3+objectsNumber+1];
 		mans[0] = new PointBase("capitan","team",15,15,this,0);
-		//mans[0].speed = 3f;
 		mans[0].strength = Random.Range(1,SharedVars.Inst.charMax);
 		mans[0].intellect = Random.Range(1,SharedVars.Inst.charMax);
 		mans[0].social = Random.Range(1,SharedVars.Inst.charMax);
 		capitanIndex = 0;
 		mans[1] = new PointBase("soldier","team",5,10,this,1);
-		//mans[1].speed = 3f;
 		mans[1].strength = Random.Range(1,SharedVars.Inst.charMax);
 		mans[1].intellect = Random.Range(1,SharedVars.Inst.charMax);
 		mans[1].social = Random.Range(1,SharedVars.Inst.charMax);
 		soldierIndex = 1;
 		mans[2] = new PointBase("medic","team",10,5,this,2);
-		//mans[2].speed = 3f;
 		mans[2].strength = Random.Range(1,SharedVars.Inst.charMax);
 		mans[2].intellect = Random.Range(1,SharedVars.Inst.charMax);
 		mans[2].social = Random.Range(1,SharedVars.Inst.charMax);
@@ -141,7 +138,6 @@ public class FightController : MonoBehaviour {
 		for (int i=3;i<enemyNumber+3;i++)
 		{
 			mans[i] = new PointBase("enemy"+i.ToString(),"enemy",Random.Range(0.1f,0.9f)*SharedVars.Inst.operationMapSize,Random.Range(0.1f,0.9f)*SharedVars.Inst.operationMapSize,this,i);
-			//mans[i].speed = 3f;
 			mans[i].startEndlessWalking();
 		}
 
@@ -192,8 +188,6 @@ public class FightController : MonoBehaviour {
 			{
 				currentMassive[j].transform.localScale = currentMassive[j].transform.localScale*personalScreenScale/2;
 			}
-			//Debug.Log(currentMassive[j].transform.position);
-			//allteamPoints[j] = Instantiate
 		}
 		return currentMassive;
 	}
